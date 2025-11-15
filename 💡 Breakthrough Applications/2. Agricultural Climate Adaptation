@@ -1,0 +1,7 @@
+ag_colony = AgriculturalResilienceColony(crop_types, soil_data)
+adaptive_strategies = ag_colony.optimize_crop_rotations(
+    climate_projections,
+    water_availability,
+    market_demands
+)
+# Increases food security by 35% under climate stress
