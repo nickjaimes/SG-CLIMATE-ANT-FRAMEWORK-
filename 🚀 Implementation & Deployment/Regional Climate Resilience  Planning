@@ -1,0 +1,15 @@
+from climate_ant import RegionalResilienceColony
+
+# Initialize for specific region
+region = "Mekong_Delta"
+colony = RegionalResilienceColony(region)
+
+# Comprehensive resilience assessment
+resilience_plan = colony.develop_resilience_strategy(
+    time_horizon=2050,
+    budget_constraints="moderate",
+    priority_sectors=["agriculture", "infrastructure", "biodiversity"]
+)
+
+# Implement adaptive management
+colony.deploy_continuous_monitoring(resilience_plan)
