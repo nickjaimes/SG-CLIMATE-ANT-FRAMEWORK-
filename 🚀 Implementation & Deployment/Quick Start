@@ -1,0 +1,12 @@
+# Clone the repository
+git clone https://github.com/climate-ant/digital-colony-framework.git
+cd digital-colony-framework
+
+# Install climate data dependencies
+pip install -r requirements-climate.txt
+
+# Download climate datasets
+python scripts/download_cmip6_data.py
+
+# Run regional climate assessment
+python examples/regional_impact_assessment.py --region "Southeast_Asia" --horizon 2050
