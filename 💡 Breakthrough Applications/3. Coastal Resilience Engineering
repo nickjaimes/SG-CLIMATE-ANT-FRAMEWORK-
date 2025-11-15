@@ -1,0 +1,7 @@
+coastal_colony = CoastalProtectionColony(shoreline_geology)
+protection_strategy = coastal_colony.design_hybrid_defenses(
+    sea_level_rise,
+    storm_intensity,
+    ecosystem_services
+)
+# Reduces coastal flood damage by 60-80%
